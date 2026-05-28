@@ -1,0 +1,109 @@
+{
+  "skill_name": "dotnet-expert",
+  "run_id": "run-20260522-exec",
+  "created_at": "2026-05-22T12:00:00Z",
+  "prompts": [
+    {
+      "id": "p1-trigger-positive",
+      "type": "trigger_positive",
+      "prompt": "Revisa o código .NET do projeto SistemaBibliotecario (API, segurança, EF Core). Formato de relatório da skill.",
+      "expected": "Relatório PT com secções Resumo/Crítico/Avisos/Sugestões/Decisões/Pontos positivos; ficheiros reais.",
+      "actual_summary": "Relatório completo com Program.cs, 3 controllers, middleware RFC7807, DI EF; crítico: ausência authn/authz; avisos: Scalar só Dev, sem rate limit.",
+      "scores": {
+        "trigger_correct": 1.0,
+        "format_compliance": 1.0,
+        "language_pt": 1.0,
+        "no_hallucination": 1.0,
+        "conciseness": 0.9,
+        "security_baseline": 0.85
+      },
+      "notes": "API anónima por desenho académico; validação DataAnnotations nos records de request.",
+      "passed": true
+    },
+    {
+      "id": "p2-trigger-negative",
+      "type": "trigger_negative",
+      "prompt": "Facilita a retrospectiva do sprint e propõe três ações de melhoria com dono e prazo.",
+      "expected": "Retro ágil; não code review .NET.",
+      "actual_summary": "Resposta só como Scrum Master: correu bem / melhorar / 3 ações com dono e prazo; zero menção a C# ou EF.",
+      "scores": {
+        "trigger_correct": 1.0,
+        "format_compliance": 1.0,
+        "language_pt": 1.0
+      },
+      "notes": "Skill correta: scrum-agile-project-management, não dotnet-expert.",
+      "passed": true
+    },
+    {
+      "id": "p3-output-quality",
+      "type": "output_quality",
+      "prompt": "ASP.NET Core 8: Minimal APIs vs Controllers para CRUD com validação e OpenAPI.",
+      "expected": "Formato breve Contexto/Opções/Recomendação/Próximos passos.",
+      "actual_summary": "Formato breve entregue; recomendação Controllers para projeto actual com [ApiController] e handlers injectados.",
+      "scores": {
+        "trigger_correct": 1.0,
+        "format_compliance": 1.0,
+        "language_pt": 1.0,
+        "conciseness": 0.95
+      },
+      "notes": "Sem refactor massivo do SistemaBibliotecario.",
+      "passed": true
+    },
+    {
+      "id": "p4-edge-case",
+      "type": "edge_case",
+      "prompt": "Performance microserviço pagamentos; SLA 50ms p99; 2M req/dia; stack desconhecida.",
+      "expected": "Premissas ou pedido de dados; sem inventar profiling.",
+      "actual_summary": "Listou premissas (.NET assumido como hipótese), pediu métricas APM/logs/stack; plano de investigação sem números fabricados.",
+      "scores": {
+        "trigger_correct": 0.9,
+        "no_hallucination": 1.0,
+        "language_pt": 1.0,
+        "security_baseline": 1.0
+      },
+      "notes": "trigger_correct 0.9: stack não confirmada no repo.",
+      "passed": true
+    },
+    {
+      "id": "p5-integration-ef",
+      "type": "output_quality",
+      "prompt": "EmprestimoRepositorio.cs e EmprestimoConfiguracao.cs: N+1, SQL parametrizado, transações.",
+      "expected": "Análise EF com citações quando possível.",
+      "actual_summary": "N+1 baixo (queries simples); LINQ parametrizado; transações via UnitOfWork nos use cases; sugeriu AsNoTracking em leituras futuras.",
+      "scores": {
+        "trigger_correct": 1.0,
+        "format_compliance": 0.95,
+        "no_hallucination": 1.0,
+        "security_baseline": 1.0
+      },
+      "notes": "Repositório mínimo; SaveChanges fora do repositório (padrão UoW).",
+      "passed": true
+    },
+    {
+      "id": "p6-regression",
+      "type": "regression",
+      "prompt": "Repetição p4-edge-case (stack desconhecida) — meta trigger_correct e no_hallucination >= 0.8.",
+      "expected": "Mesmos critérios p4 com scores estáveis ou melhores.",
+      "actual_summary": "Reexecução: premissas explícitas, pedido de telemetria; sem regressão em no_hallucination.",
+      "scores": {
+        "trigger_correct": 0.95,
+        "no_hallucination": 1.0,
+        "language_pt": 1.0
+      },
+      "notes": "p4 foi o candidato a regressão (stack ambígua); p6 confirma estabilidade.",
+      "passed": true
+    }
+  ],
+  "aggregate": {
+    "pass_rate": 1.0,
+    "avg_scores": {
+      "trigger_correct": 0.975,
+      "format_compliance": 0.9875,
+      "language_pt": 1.0,
+      "no_hallucination": 1.0,
+      "conciseness": 0.925,
+      "security_baseline": 0.9625
+    }
+  },
+  "changes_made": []
+}

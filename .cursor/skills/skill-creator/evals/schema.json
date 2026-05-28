@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SkillEvalRun",
+  "type": "object",
+  "required": ["skill_name", "run_id", "prompts"],
+  "properties": {
+    "skill_name": { "type": "string" },
+    "run_id": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "prompts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "prompt", "scores"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["trigger_positive", "trigger_negative", "output_quality", "edge_case", "regression"]
+          },
+          "prompt": { "type": "string" },
+          "expected": { "type": "string" },
+          "actual_summary": { "type": "string" },
+          "scores": {
+            "type": "object",
+            "additionalProperties": { "type": "number", "minimum": 0, "maximum": 1 }
+          },
+          "notes": { "type": "string" },
+          "passed": { "type": "boolean" }
+        }
+      }
+    },
+    "aggregate": {
+      "type": "object",
+      "properties": {
+        "pass_rate": { "type": "number" },
+        "avg_scores": { "type": "object" }
+      }
+    },
+    "changes_made": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
