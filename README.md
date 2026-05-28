@@ -1,249 +1,169 @@
 <div align="center">
-   <h1>
-      NOME DO PROJETO
-   </h1>
-  <!-- 
-  <h1>
-    <img width="490" height="110" alt="dopme io" src="https://github.com/dopme-io/dopmeRepo/blob/main/assests/dopme.png" />
-  </h1>
-  </br>
-  <img width="663" height="69" src="" /> 
-   -->
-  
-  [![.NET](https://github.com/dopme-io/dopmeSite/actions/workflows/dotnet.yml/badge.svg)](https://github.com/dopme-io/dopmeSite/actions/workflows/dotnet.yml)
-  [![CI - Build & Test](https://github.com/dopme-io/dopmeSite/actions/workflows/ci.yml/badge.svg)](https://github.com/dopme-io/dopmeSite/actions/workflows/ci.yml)
-  [![Dependencies Check & Update](https://github.com/dopme-io/dopmeSite/actions/workflows/dependencies.yml/badge.svg)](https://github.com/dopme-io/dopmeSite/actions/workflows/dependencies.yml)
-  [![Deploy to CloudFlare Pages](https://github.com/dopme-io/dopmeSite/actions/workflows/deploy.yml/badge.svg)](https://github.com/dopme-io/dopmeSite/actions/workflows/deploy.yml)
-  [![Monitoring & Performance](https://github.com/dopme-io/dopmeSite/actions/workflows/monitoring.yml/badge.svg)](https://github.com/dopme-io/dopmeSite/actions/workflows/monitoring.yml)
-  
-  ![Status do build](https://img.shields.io/github/actions/workflow/status/dopme-io/REPO/workflow.yml)
-  ![Licença](https://img.shields.io/github/license/dopme-io/REPO)
-  ![Versão](https://img.shields.io/github/package-json/v/dopme-io/REPO)
 
-   **Repositório base/template** com CI/CD completo para qualquer tecnologia backend e frontend.  
-   Inclui workflows de integração contínua, deploy, gerenciamento de dependências e monitoramento prontos para uso.
+# dopAnthropiCourses
+
+**Repositório de divulgação dos cursos e certificados [Anthropic](https://www.anthropic.com/) concluídos pela equipe.**
+
+[![CI - Build & Test](https://github.com/daniloopinheiro/dopAnthropiCourses/actions/workflows/ci.yml/badge.svg)](https://github.com/daniloopinheiro/dopAnthropiCourses/actions/workflows/ci.yml)
+[![Dependencies Check & Update](https://github.com/daniloopinheiro/dopAnthropiCourses/actions/workflows/dependencies.yml/badge.svg)](https://github.com/daniloopinheiro/dopAnthropiCourses/actions/workflows/dependencies.yml)
+[![Monitoring & Performance](https://github.com/daniloopinheiro/dopAnthropiCourses/actions/workflows/monitoring.yml/badge.svg)](https://github.com/daniloopinheiro/dopAnthropiCourses/actions/workflows/monitoring.yml)
+
+![Licença](https://img.shields.io/github/license/daniloopinheiro/dopAnthropiCourses)
+
 </div>
-</br>
 
+## Visão geral
 
-## 📑 Índice
+Este repositório centraliza a documentação pública dos treinamentos oferecidos pela Anthropic — **Claude 101**, **AI Fluency** e demais programas da [Anthropic Academy](https://anthropic.skilljar.com/) — incluindo certificados, materiais de apoio e notas de conclusão. O objetivo é registrar de forma transparente a capacitação em IA generativa e boas práticas de uso do Claude.
 
-1. [Visão Geral](#visão-geral)
-2. [CI/CD e Workflows](#cicd-e-workflows)
-3. [Instalação](#instalação)
-4. [Como Usar](#como-usar)
-5. [Configuração](#configuração)
-6. [Contribuições](#contribuições)
-7. [Artigos & Conteúdos](#artigos--conteúdos)
-8. [Licença](#licença)
-9. [Contato](#contato)
+## Certificados concluídos
 
-## Visão Geral
+Registro conforme a [Anthropic Academy](https://anthropic.skilljar.com/):
 
-O **dopBase** é um repositório base/template completo com pipelines de CI/CD prontos para uso, suportando múltiplas tecnologias e frameworks. Este projeto fornece uma base sólida para iniciar qualquer aplicação com as melhores práticas de DevOps.
+| Curso | Inscrição | Status | Conclusão | Certificado emitido | Expiração | Expiração do certificado | Pontuação |
+|-------|-----------|--------|-----------|---------------------|-----------|--------------------------|-----------|
+| [AI Fluency: Framework & Foundations](#ai-fluency-framework--foundations) | 28/05/2026 | Concluído | 28/05/2026 | 28/05/2026 | — | — | **10 / 10** |
+| [Claude 101](#claude-101) | 28/05/2026 | Concluído | 28/05/2026 | 28/05/2026 | — | — | — |
 
-### 🎯 Como Usar Este Template
+| Curso | Certificado (PDF) | LinkedIn |
+|-------|-------------------|----------|
+| AI Fluency: Framework & Foundations | [Ver certificado](AI_FLUENCY/certificate-5ayfrb6x5ws8-1779964241.pdf) | [Adicionar ao perfil](https://www.linkedin.com/in/daniloopinheiro/) |
+| Claude 101 | [Ver certificado](CLAUDE_101/certificate-s4jqraxwpdo5-1779967077.pdf) | [Adicionar ao perfil](https://www.linkedin.com/in/daniloopinheiro/) |
 
-Este repositório serve como base para novos projetos. Para usá-lo:
+## AI Fluency: Framework & Foundations
 
-1. **Clone ou use como template**:
-   ```bash
-   # Opção 1: Clone direto
-   git clone https://github.com/daniloopinheiro/dopBase.git meu-novo-projeto
-   
-   # Opção 2: Use o botão "Use this template" no GitHub
-   ```
+Programa introdutório da Anthropic sobre fluência em IA: fundamentos do framework **4D** (Description, Discernment, Delegation, Diligence), prompting eficaz e uso responsável de ferramentas generativas.
 
-2. **Adicione seu código**: Os workflows detectam automaticamente a tecnologia e configuram tudo
-3. **Configure secrets** (opcional): Para deploy automático
-4. **Comece a desenvolver**: Os workflows funcionam imediatamente!
+### Certificado
 
-> **Nota**: Arquivos de configuração específicos (como `k6-test.js`, `.pa11yci.json`, `sonar-project.properties`) não estão incluídos. Você pode criá-los conforme necessário para seu projeto específico.
+| Campo | Valor |
+|-------|--------|
+| **Título** | AI Fluency: Framework & Foundations |
+| **Inscrição** | 28 de maio de 2026 |
+| **Status** | Concluído |
+| **Conclusão** | 28 de maio de 2026 |
+| **Certificado emitido** | 28 de maio de 2026 |
+| **Expiração do curso** | — |
+| **Expiração do certificado** | — |
+| **Pontuação** | 10 / 10 |
 
-### ✨ Recursos Principais
+📄 [Ver certificado (PDF)](AI_FLUENCY/certificate-5ayfrb6x5ws8-1779964241.pdf) · [Adicionar ao LinkedIn](https://www.linkedin.com/in/daniloopinheiro/)
 
-- 🔄 **CI/CD Automático**: Workflows prontos para build, teste e deploy
-- 🌐 **Multi-tecnologia**: Suporta Node.js, Python, .NET, Java, Go e mais
-- 🔒 **Segurança**: Scans automáticos de vulnerabilidades
-- 📦 **Gerenciamento de Dependências**: Atualização automática e verificação de segurança
-- 🤖 **Automação de PRs**: Labeling, validações e estatísticas automáticas
-- 📊 **Monitoramento**: Performance, acessibilidade e qualidade de código
-- 🚀 **Deploy Automático**: Integração com Vercel, Netlify, Heroku, AWS, Azure e mais
+### Divulgação no LinkedIn
 
-## CI/CD e Workflows
+Publicação de conclusão no perfil de [Danilo O. Pinheiro](https://www.linkedin.com/in/daniloopinheiro/) — *Analista de Sistemas Sênior (.NET) | IA Aplicada, Agentes Inteligentes e Engenharia de Software*.
 
-Este projeto inclui workflows completos de GitHub Actions para automação de todo o ciclo de desenvolvimento.
+<p align="center">
+  <a href="https://www.linkedin.com/in/daniloopinheiro/">
+    <img src="assets/linkedin-ai-fluency-certificado.png" alt="Postagem no LinkedIn: certificação AI Fluency Framework Foundations da Anthropic" width="600"/>
+  </a>
+</p>
 
-### 🚀 Workflows Disponíveis
+> 🚀 **Conquista desbloqueada!** Tenho o prazer de compartilhar que concluí a certificação **AI Fluency: Framework & Foundations**, da [Anthropic](https://www.anthropic.com/)! 🤖 ✨
+>
+> Mais do que um certificado, foi uma jornada para desenvolver uma nova forma de pensar e trabalhar com IA — de maneira efetiva, responsável e estratégica.
+>
+> Ao longo do curso, mergulhei nos conceitos que sustentam a **fluência em IA generativa**:
+>
+> - **Delegation** — saber o que delegar à IA  
+> - **Description** — comunicar de forma clara para obter melhores resultados  
+> - **Discernment** — avaliar criticamente as respostas  
+> - **Diligence** — usar IA com responsabilidade, ética e transparência  
+>
+> Esse aprendizado reforça meu compromisso em aplicar IA de forma prática, consciente e orientada a gerar valor real em projetos e soluções.
+>
+> 💡 O futuro já está acontecendo — e estar preparado para trabalhar com IA de forma consciente é um grande diferencial. **Seguimos evoluindo!** 🚀
+>
+> `#AI` `#ArtificialIntelligence` `#AIFluency` `#Anthropic` `#Tech` `#Inovação` `#AprendizadoContínuo`
 
-#### 1. **CI - Build & Test** (`ci.yml`)
-- ✅ Detecção automática de tecnologias
-- 🏗️ Build automático para backend e frontend
-- 🧪 Execução de testes
-- 📊 Análise de código (Linting)
-- 🔒 Scan de segurança com Trivy
-- 📈 Análise de qualidade com SonarCloud
+### Materiais do curso
 
-#### 2. **CD - Deploy** (`cd.yml`)
-- 🚀 Deploy automático para múltiplas plataformas
-- 🐳 Build e push de imagens Docker
-- 📝 Criação automática de releases
-- 🏷️ Geração de changelog
+Arquivos em [`AI_FLUENCY/`](AI_FLUENCY/):
 
-#### 3. **Dependencies Check** (`dependencies.yml`)
-- 🔍 Verificação de vulnerabilidades
-- 📦 Detecção de pacotes desatualizados
-- 🔄 Atualização automática de dependências
-- ⚖️ Verificação de licenças
+| Módulo / material | Arquivo |
+|-------------------|---------|
+| Resumo — AI Fluency (one-pager) | [1.2_AI_Fluency_Summary_One-Pager.pdf](AI_FLUENCY/1.2_AI_Fluency_Summary_One-Pager.pdf) · [16:9](AI_FLUENCY/1.2_AI_Fluency_Summary_16x9.pdf) |
+| Delegation | [1.3_Delegation_Summary.pdf](AI_FLUENCY/1.3_Delegation_Summary.pdf) · [16:9](AI_FLUENCY/1.3_Delegation_Summary_16x9.pdf) |
+| Description | [1.5_Description_Summary.pdf](AI_FLUENCY/1.5_Description_Summary.pdf) · [16:9](AI_FLUENCY/1.5_Description_Summary_16x9.pdf) |
+| Discernment | [1.6_Discernment_Summary.pdf](AI_FLUENCY/1.6_Discernment_Summary.pdf) · [16:9](AI_FLUENCY/1.6_Discernment_Summary_16x9.pdf) |
+| Diligence | [1.8_Diligence_Summary.pdf](AI_FLUENCY/1.8_Diligence_Summary.pdf) · [16:9](AI_FLUENCY/1.8_Diligence_Summary_16x9.pdf) |
+| Visão geral de IA generativa (handout) | [DD1_Handout__Overview_of_Generative_AI.pdf](AI_FLUENCY/DD1_Handout__Overview_of_Generative_AI.pdf) |
+| 6 técnicas eficivas de prompting (handout) | [DD2_Handout__6_Effective_Prompting_Techniques.pdf](AI_FLUENCY/DD2_Handout__6_Effective_Prompting_Techniques.pdf) |
+| Cheat sheet de vocabulário | [AI_Fluency_vocabulary_cheat_sheet.pdf](AI_FLUENCY/AI_Fluency_vocabulary_cheat_sheet.pdf) |
 
-#### 4. **PR Automation** (`pr-automation.yml`)
-- 🏷️ Labeling automático
-- 📏 Validação de título semântico
-- 📊 Estatísticas de mudanças
-- 🤖 Auto-merge de PRs do Dependabot
+> Os PDFs são cópias dos materiais oficiais do curso, mantidos aqui para referência interna e divulgação. Direitos de conteúdo pertencem à Anthropic.
 
-#### 5. **Monitoring** (`monitoring.yml`)
-- 🔍 Lighthouse audit
-- ⚡ Testes de performance com k6
-- 🔒 Verificação de SSL
-- 📊 Análise de cobertura de código
+## Claude 101
 
-#### 6. **Auto Tag & Version** (`auto-tag.yml`) ⭐ NOVO
-- 🏷️ Criação automática de tags quando há merge para `main`
-- 📊 Versionamento semântico baseado em commits convencionais
-- 🔄 Detecta automaticamente o tipo de versão (major, minor, patch)
-- 🎯 Integrado com CD para releases automáticas
+Curso oficial e gratuito da Anthropic para dominar o Claude no dia a dia: recursos principais (Projects, Artifacts), conectores, pesquisa aprofundada e fluxos de trabalho práticos. Disponível na [Anthropic Academy](https://anthropic.skilljar.com/claude-101).
 
-### 📚 Documentação dos Workflows
+### Certificado
 
-- 📖 [Guia Completo](.github/README.md) - Documentação detalhada de todos os workflows
-- 🚀 [Quick Start](.github/QUICKSTART.md) - Comece em 5 minutos
-- 🏷️ [Auto Versioning](.github/AUTO_VERSIONING.md) - Tags e releases automáticas ⭐ NOVO
-- 📦 [Release Guide](.github/RELEASE_GUIDE.md) - Como criar releases
-- 📛 [Badges](.github/BADGES.md) - Badges para seu README
+| Campo | Valor |
+|-------|--------|
+| **Título** | Claude 101 |
+| **Nº do certificado** | s4jqraxwpdo5 |
+| **Inscrição** | 28 de maio de 2026 |
+| **Status** | Concluído |
+| **Conclusão** | 28 de maio de 2026 |
+| **Certificado emitido** | 28 de maio de 2026 |
+| **Expiração do curso** | — |
+| **Expiração do certificado** | — |
+| **Pontuação** | — |
 
-### 🔧 Tecnologias Suportadas
+📄 [Ver certificado (PDF)](CLAUDE_101/certificate-s4jqraxwpdo5-1779967077.pdf) · [Adicionar ao LinkedIn](https://www.linkedin.com/in/daniloopinheiro/)
 
-| Categoria | Tecnologias |
-|-----------|-------------|
-| **Frontend** | Node.js, React, Vue, Angular, Svelte, Next.js, Nuxt.js |
-| **Backend** | Node.js, Python, .NET, Java, Go |
-| **Gerenciadores** | npm, yarn, pnpm, pip, Maven, Gradle, NuGet, Go modules |
-| **Containers** | Docker, Docker Compose |
-| **Deploy** | Vercel, Netlify, GitHub Pages, Heroku, AWS, Azure |
+### Conteúdo do curso
 
-### ⚡ Início Rápido
+| Módulo | Tópicos |
+|--------|---------|
+| **Meet Claude** | O que é o Claude, primeiros passos e uso no trabalho |
+| **Organizing your work and knowledge** | Projects, Artifacts e organização do conhecimento |
+| **Expanding Claude's reach** | Conectores, automação e integrações |
+| **Putting it all together** | Fluxos completos e casos de uso |
+| **Conclusion & certificate** | Recapitulação e avaliação final |
 
-1. **Clone o repositório**
-2. **Os workflows já estão configurados** em `.github/workflows/`
-3. **Faça seu primeiro push**:
-   ```bash
-   git add .
-   git commit -m "feat: initial commit"
-   git push origin main
-   ```
-4. **Veja os workflows em ação** na aba Actions do GitHub
+Arquivos em [`CLAUDE_101/`](CLAUDE_101/):
 
-### 🎯 Fluxo Completo de Release Automática
+| Material | Arquivo |
+|----------|---------|
+| Certificado de conclusão | [certificate-s4jqraxwpdo5-1779967077.pdf](CLAUDE_101/certificate-s4jqraxwpdo5-1779967077.pdf) |
 
-Este repositório possui um fluxo completo de automação:
+> Curso com ~13 lições em vídeo, sem pré-requisitos. Ideal como ponto de partida antes de trilhas como AI Fluency ou desenvolvimento com a API Claude.
+
+## Estrutura do repositório
 
 ```
-1. Desenvolver → 2. PR → 3. Merge para main → 4. Auto Tag → 5. Auto Release
+dopAnthropiCourses/
+├── CLAUDE_101/          # Certificado do curso Claude 101
+├── AI_FLUENCY/          # Certificados e materiais do curso AI Fluency
+├── assets/              # Imagens de divulgação (ex.: postagem LinkedIn)
+├── .github/workflows/   # Automação de CI (build, dependências, monitoramento)
+├── README.md            # Este arquivo
+└── CHANGELOG.md         # Histórico de atualizações
 ```
 
-**Exemplo prático:**
-```bash
-# 1. Criar branch e desenvolver
-git checkout -b feature/nova-funcionalidade
-git commit -m "feat: adiciona funcionalidade incrível"
+## Como adicionar um novo curso
 
-# 2. Criar PR e fazer merge para main
-
-# 3. Automação acontece:
-#    ✅ Auto Tag detecta "feat:" e cria tag v1.1.0
-#    ✅ CD detecta tag e cria release automaticamente
-#    ✅ Changelog gerado com base nos commits
-```
-
-Para mais detalhes, consulte o [Auto Versioning Guide](.github/AUTO_VERSIONING.md).
-
----
-
-## Instalação
-
-Forneça instruções claras sobre como instalar o seu software.  
-Inclua pré-requisitos, como dependências de software ou bibliotecas necessárias.  
-
-Exemplo:
-
-```bash
-$ git clone https://github.com/seu-usuario/nome-do-projeto.git
-$ cd nome-do-projeto
-````
-
-## Como Usar
-
-Explique como usar o seu software em detalhes.
-Forneça exemplos de código, comandos de linha ou capturas de tela para demonstrar o uso típico do software.
-
-Exemplo:
-
-```bash
-# Exemplo de execução
-dotnet run
-```
-
-Isso iniciará o servidor de desenvolvimento.
-
-## Configuração
-
-Se o seu software requer configuração adicional além da instalação padrão, explique aqui como configurá-lo.
-Isso pode incluir variáveis de ambiente, arquivos de configuração ou qualquer ajuste necessário para personalizar o comportamento do software.
+1. Crie uma pasta com o nome do programa (ex.: `AI_FLUENCY_2/`).
+2. Inclua o PDF do certificado e os materiais relevantes.
+3. Atualize a tabela **Certificados concluídos** e adicione uma seção com os detalhes do curso.
+4. Registre a alteração em `CHANGELOG.md`.
 
 ## Contribuições
 
-Explique se você está aberto para contribuições e como outros desenvolvedores podem ajudar.
-Inclua orientações para quem deseja reportar bugs, enviar solicitações de novos recursos ou fazer alterações no código.
-
-## Artigos & Conteúdos
-
-* 💼 [LinkedIn](https://www.linkedin.com/in/daniloopinheiro)
-* ✍️ [Medium](https://medium.com/@daniloopinheiro)
-* 💻 [Dev.to](https://dev.to/daniloopinheiro)
-* 📰 [Substack](https://substack.com/@daniloopinheiro)
+Sugestões e correções são bem-vindas via [Issues](https://github.com/daniloopinheiro/dopAnthropiCourses/issues) ou pull requests, seguindo o [guia de contribuição](CONTRIBUTING.md).
 
 ## Licença
 
-MIT License © 2025 [LICENSE.md](https://github.com/daniloopinheiro/dopBase/blob/main/LICENSE.md) — por [Danilo O. Pinheiro](https://www.linkedin.com/in/daniloopinheiro/)
+MIT License © 2026 — veja [LICENSE.md](LICENSE.md). Conteúdos de cursos e certificados Anthropic permanecem sujeitos aos termos da plataforma de treinamento da Anthropic.
 
 ## Contato
 
-### 💬 Suporte Técnico
-Para questões técnicas, problemas ou sugestões:
-- **Issues**: [GitHub Issues](https://github.com/daniloopinheiro/dopNetHL7/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/daniloopinheiro/dopNetHL7/discussions)
-
-### 👨‍💻 Autor
-**Danilo O. Pinheiro**  
-Especialista em .NET, Clean Architecture e Interoperabilidade em Saúde
-
-- **Email Pessoal**: [daniloopro@gmail.com](mailto:daniloopro@gmail.com)
-- **Email Empresarial**: [devsfree@devsfree.com.br](mailto:devsfree@devsfree.com.br)
-- **Consultoria**: [contato@dopme.io](mailto:contato@dopme.io)
-- **LinkedIn**: [Danilo O. Pinheiro](https://www.linkedin.com/in/daniloopinheiro/)
-
-### 🏢 Empresas
-- **[DevsFree](https://devsfree.com.br)**: Desenvolvimento de Software
-- **[dopme.io](https://dopme.io)**: Consultoria e Soluções Tecnológicas
+**Danilo O. Pinheiro** — [LinkedIn](https://www.linkedin.com/in/daniloopinheiro/) · [daniloopro@gmail.com](mailto:daniloopro@gmail.com)
 
 <div align="center">
 
-**⭐ Se este projeto foi útil, deixe uma estrela no GitHub! ⭐**
-
-<p>
-Feito com ❤️ por <strong>Danilo O. Pinheiro</strong><br/>  
-<a href="https://devsfree.com.br" target="_blank">DevsFree</a> • <a href="https://dopme.io" target="_blank">dopme.io</a>  
-</p>
+**⭐ Se este registro de capacitação for útil, deixe uma estrela no repositório.**
 
 </div>
